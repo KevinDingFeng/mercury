@@ -11,7 +11,7 @@ public class TestController {
 	@RequestMapping(method = RequestMethod.GET)
 	public String test() {
 		
-		System.out.println("master");
+		System.out.println("v0.0.1");
 		return "ok";
 	}
 }
